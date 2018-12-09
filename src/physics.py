@@ -1,6 +1,7 @@
 from pygame import Rect
 from math import *
 
+#round mound of rebound
 def modRound(number):
     if number > 0:  return ceil(number)
     else:   return floor(number)
